@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
+import 'semantic-ui-css/semantic.min.css'
+import Coupon from './Components/Coupon';
+import { Divider } from 'semantic-ui-react';
+import Newdevice from './Components/Newdevice';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Navbar/>
+    <div className='pc'>
+    <Coupon/>
+
+    </div>
+<div className='mobile'> 
+  <Newdevice/>
+</div>
+    <br></br>
+    <Divider/>
+        
+          <p className='footer'>Made with 🧡 by OmegaCareer and<a href='https://twitter.com/MayurJa16744138' target='_blank' rel="noreferrer" > Mayur</a></p>
+         
+        
     </div>
   );
 }
