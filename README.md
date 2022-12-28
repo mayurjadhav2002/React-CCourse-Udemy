@@ -1,8 +1,8 @@
 
 # React Coupon Code
 
-Interactive web application to get a free MOOC courses Coupon Codes. Build with flask Udemy Coupon Code API.
-API - https://github.com/mayurjadhav2002/Udemy-Coupons-API
+An interactive web application built with React, using the Udemy Coupon Code API (available at https://github.com/mayurjadhav2002/Udemy-Coupons-API), allows users to easily search for and obtain free MOOC course coupon codes. The application utilizes the API to access a vast database of MOOC courses and their corresponding coupon codes, making it simple for users to find and redeem discounts on popular online learning platforms. Whether you're looking to further your education or simply want to try out a new course, this application provides a convenient and user-friendly way to save on MOOC courses and advance your knowledge.
+
 
 
 ## Demo Output
